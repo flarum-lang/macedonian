@@ -32,3 +32,124 @@ core:
       all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: 'Стандарден јазик'
       description: 'Поставете го насловот на форумот, јазикот и другите основни поставки.'
+      display_name_heading: 'Прикажано корисничко име'
+      forum_description_heading: 'Опис на форумот'
+      forum_description_text: 'Внесете реченица или две што ја опишуваат вашата заедница. Ова ќе биде прикажано во мета ознаките и ќе се појавува кај пребарувачите.'
+      forum_title_heading: 'Наслов на форумот'
+      home_page_heading: 'Почетна страна'
+      home_page_text: 'Одберете страна која корисниците ќе ја гледаат при првата посета на форумот.'
+      show_language_selector_label: 'Покажи избор на јазик'
+      title: Основи
+      welcome_banner_heading: 'Порака за добредојде'
+    create_user:
+      email_confirmed_label: 'Побарај од корисникот да ја потврди email адресата'
+      email_placeholder: '=> core.ref.email'
+      password_placeholder: '=> core.ref.password'
+      submit_and_create_another_button: 'Зачувај и додади друг/а'
+      submit_button: 'Креирај корисник'
+      title: 'Креирај нов корисник'
+      use_random_password: 'Генерирај случајна лозинка'
+      username_placeholder: '=> core.ref.username'
+    dashboard:
+      clear_cache_button: 'Исчисти го cache-от'
+      status:
+        scheduler:
+          never-run: 'Никогаш извршен(и)'
+      title: Преглед
+      tools_button: Алатки
+    debug-warning:
+      label: 'Активна состојба за дебагирање'
+    edit_css:
+      title: 'Измени CSS'
+    edit_footer:
+      customize_text: '=> core.ref.custom_footer_text'
+      submit_button: '=> core.ref.save_changes'
+      title: '=> core.ref.custom_footer_title'
+    edit_group:
+      color_label: '=> core.ref.color'
+      delete_button: 'Избриши група'
+      delete_confirmation: 'Дали сте сигурни дека сакате да ја избришете групата? Членовите на групата НЕМА да бидат избришани.'
+      hide_label: 'Сокриј на форумот'
+      icon_label: '=> core.ref.icon'
+      icon_text: '=> core.ref.icon_text'
+      name_label: Име
+      plural_placeholder: 'Множина (пр. Модератори)'
+      singular_placeholder: 'Еднина (пр. Модератор)'
+      submit_button: '=> core.ref.save_changes'
+      title: 'Креирај група'
+    edit_header:
+      customize_text: '=> core.ref.custom_header_text'
+      submit_button: '=> core.ref.save_changes'
+      title: '=> core.ref.custom_header_title'
+    email:
+      addresses_heading: Адреси
+      from_label: Испраќач
+      mail_encryption_label: Енкрипција
+      mail_host_label: Хост
+      mail_mailgun_domain_label: Домеин
+      mail_mailgun_region_label: Регион
+      mail_mailgun_secret_label: 'Таен клуч'
+      mail_password_label: '=> core.ref.password'
+      mail_port_label: Порта
+      mail_username_label: '=> core.ref.username'
+      mailgun_heading: 'Подесувања за Mailgun'
+      send_test_mail_button: Испрати
+      send_test_mail_heading: 'Испрати пробна порака'
+      send_test_mail_success: 'Пробната порака е успешно испратена!'
+      smtp_heading: 'Подесувања за SMTP'
+      title: '=> core.ref.email'
+    extension:
+      disabled: Исклучено
+      enabled: Вклучено
+      info_links:
+        discuss: Discuss
+        documentation: Документација
+        donate: Донирај
+        source: Извор
+        support: Поддршка
+        website: Сајт
+      open_modal: 'Отвори подесувања'
+      permissions_title: Привилегии
+      purge_button: Избриши
+      readme:
+        button_label: README
+        title: 'Документација за {extName}'
+    header:
+      get_help: 'Добиј помош'
+      log_out_button: '=> core.ref.log_out'
+    loading:
+      title: Почекајте...
+    nav:
+      appearance_button: '=> core.admin.appearance.title'
+      appearance_title: '=> core.admin.appearance.description'
+      basics_button: '=> core.admin.basics.title'
+      basics_title: '=> core.admin.basics.description'
+      categories:
+        authentication: Најавување
+        core: 'Основни подесувања'
+        discussion: Дискусија
+        feature: Можности
+        formatting: Форматирање
+        language: Јазици
+        moderation: Модерирање
+        other: 'Останати екстензии'
+        theme: Теми
+      dashboard_button: '=> core.admin.dashboard.title'
+      dashboard_title: '=> core.admin.dashboard.description'
+      email_button: '=> core.ref.email'
+      email_title: '=> core.admin.email.description'
+      permissions_button: '=> core.admin.permissions.title'
+      permissions_title: '=> core.admin.permissions.description'
+      search_placeholder: 'Пребарај екстензии'
+      userlist_button: '=> core.admin.users.title'
+      userlist_title: '=> core.admin.users.description'
+    permissions:
+      allow_hide_own_posts_label: 'Дозволи бришење на сопствени мислења'
+      allow_post_editing_label: 'Дозволи измени на мислења'
+      allow_renaming_label: 'Дозволи преименување'
+      create_access_token_label: 'Креирај access token'
+      create_heading: Креирај
+      delete_discussions_forever_label: 'Трајно бришење на дискусии'
+      delete_discussions_label: 'Бришење на дискусии'
+      delete_posts_forever_label: 'Трајно бришење на мислења'
+      delete_posts_label: 'Бришење на мислења'
