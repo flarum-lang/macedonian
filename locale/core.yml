@@ -54,12 +54,15 @@ core:
       clear_cache_button: 'Исчисти го cache-от'
       status:
         scheduler:
+          active: Активно
+          inactive: Неактивно
           never-run: 'Никогаш извршен(и)'
       title: Преглед
       tools_button: Алатки
     debug-warning:
       label: 'Активна состојба за дебагирање'
     edit_css:
+      submit_button: '=> core.ref.save_changes'
       title: 'Измени CSS'
     edit_footer:
       customize_text: '=> core.ref.custom_footer_text'
@@ -108,11 +111,14 @@ core:
         source: Извор
         support: Поддршка
         website: Сајт
+      no_permissions: 'Оваа екстензија нема привилегии.'
+      no_settings: 'Оваа екстензија нема подесувања.'
       open_modal: 'Отвори подесувања'
       permissions_title: Привилегии
       purge_button: Избриши
       readme:
         button_label: README
+        no_readme: 'Оваа екстензија нема README документ.'
         title: 'Документација за {extName}'
     header:
       get_help: 'Добиј помош'
@@ -153,3 +159,4 @@ core:
       delete_discussions_label: 'Бришење на дискусии'
       delete_posts_forever_label: 'Трајно бришење на мислења'
       delete_posts_label: 'Бришење на мислења'
+      description: 'Подеси кој што може да гледа и прави.'
