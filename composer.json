@@ -1,26 +1,20 @@
 {
 	"name": "flarum-lang/macedonian",
+	"description": "Macedonian Language Pack for Flarum",
 	"type": "flarum-extension",
-	"description": "Macedonian language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/macedonian",
 	"keywords": [
-		"locale",
-		"flarum",
-		"flarum-locale",
-		"mk-locale",
-		"macedonian-locale",
-		"macedonian"
+		"flarum-locale"
 	],
+	"homepage": "https://github.com/flarum-lang/macedonian",
 	"license": "MIT",
 	"support": {
 		"issues": "https://github.com/flarum-lang/macedonian/issues",
+		"forum": "https://discuss.flarum.org/d/40200",
 		"source": "https://github.com/flarum-lang/macedonian"
 	},
 	"require": {
 		"flarum/core": "^2.0"
 	},
-	"minimum-stability": "dev",
-	"prefer-stable": true,
 	"extra": {
 		"flarum-extension": {
 			"title": "Macedonian",
@@ -33,13 +27,7 @@
 		},
 		"flarum-locale": {
 			"code": "mk",
-			"title": "Macedonian"
-		},
-		"extiverse": {
-			"discuss": ""
-		},
-		"branch-alias": {
-			"dev-master": "1.x-dev"
+			"title": "Македонски"
 		}
 	}
 }
